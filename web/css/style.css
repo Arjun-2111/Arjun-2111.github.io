@@ -1,0 +1,78 @@
+#nav{
+    background-color: rgb(12, 180, 29) !important;
+    border: radius 2px;
+    border:3px solid black;
+}
+p{
+       font-family: fantasy;
+       font-size: large;
+}
+footer{
+    border: 3px solid black;
+}
+.ram{
+    width:70%;
+    height:70%;
+}
+.rom{
+    width:70%;
+    height:70%;
+}   
+.box1{
+    background-color: white;
+    margin:10% 35% 35% 40%;
+    height:500px;
+    padding:5px;
+    width:fit-content;
+    border: 2px solid black;
+    border-radius:1rem;
+    text-align: center;
+}
+@media screen and (max-width:600px) {
+.box1{
+    text-align: center;
+    background-color: white;
+    height:500px;
+    margin:2rem;
+    padding:5px;
+    width:fit-content;
+    border-radius:1rem;
+    border: 2px solid rgb(0, 0, 0);
+}
+}
+form{
+        padding:50px;
+}
+input{
+    padding:5px;
+}
+button{
+    background-color: green;
+    border-radius:16px;
+    border:1px solid rgb(0, 0, 0);
+    width:100%;
+    color:white;
+
+}
+
+button:hover{
+    border:2px solid lightskyblue;
+}
+.register{
+    background-color:rgb(213, 235, 208);
+}  
+#signin{
+    background-color: green;
+}
+.login{
+    text-align: center;
+}
+@media only screen and (min-width:400px) {
+#imgsl{
+    width:10%;
+    height:10%;
+}
+}
+a:hover{
+    color:red !important;
+}
